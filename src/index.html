@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedStore</title>
+
+    <link rel="shortcut icon" href="./assets/images/logo-white.png" type="image/png">
+    <link rel="stylesheet" href="./assets/icons/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/output.css">
+  </head>
+  <body>
+
+    <header class="fixed top-0 w-full  z-20">
+      <section class="bg-pink header">
+       <div class="max-w-5xl mx-auto">
+         <div class="flex justify-between items-center p-5">
+           <img src="./assets/images/logo.png" alt="logo" class="w-20">
+           <nav class="text-md lg:flex hidden space-x-5 items-center">
+             <ul class="flex justify-between space-x-5">
+               <li><a href="./index.html" class="hover:text-red transition duration-300 ease-in">Home</a></li>
+               <li><a href="./Products.html" class="hover:text-red transition duration-300 ease-in">Products</a></li>
+            
+               <li><a href="./Account.html" class="hover:text-red transition duration-300 ease-in">Account</a></li>
+             </ul>
+             <a href="./Cart.html"><img src="./assets/images/cart.png" alt="" class="w-4 lg:block hidden"></a>
+           </nav>
+          <a href="./Cart.html"> <img src="./assets/images/cart.png" alt="" class="w-4 block lg:hidden"></a>
+           <nav class="text-md fixed z-20  navbar lg:hidden top-14 p-5 left-0  transform origin-center w-full bg-gray transition-transform scale-y-0">
+             
+             <ul class="flex flex-col items-end justify-center space-y-5  ">
+               <li><a href="./index.html" class="hover:text-white text-pink transition duration-300 ease-in">Home</a></li>
+               <li><a href="./Products.html" class="hover:text-white text-pink transition duration-300 ease-in">Products</a></li>
+             
+               <li><a href="./Account.html" class="hover:text-white text-pink transition duration-300 ease-in">Account</a></li>
+             </ul>
+            
+            
+           </nav>
+           <div class="menu z-50 lg:hidden block">
+             <i class="fa fa-solid fa-bars menu-open "></i>
+             <i class="fa fa-solid fa-xmark menu-close text-red"></i>
+           </div>
+         </div>
+ 
+       </div>
+      </section>
+     </header>
+    <main class="mt-10">
+      <section class="bg-radial from-white to-pink h-screen pt-20 max-lg:px-10">
+        <div class="grid lg:grid-cols-2 max-w-5xl mx-auto gap-5">
+          <div class="flex flex-col justify-center max-lg:items-center gap-5">
+            <h1 class="font-bold text-4xl max-lg::text-2xl">Give Your Workout A New Style!</h1>
+            <p class="max-w-lg text-gray text-md max-lg:text-[12px]">success is not always about greatness.It's about consistency. Consistent hard work gains success. Greatness will come</p>
+          <button class="btn ">
+            Explore Now <span><i class="fa-solid fa-arrow-right"></i></span>
+          </button>
+          </div>
+          <div class="flex max-md:-order-1 ">
+            <img src="./assets/images/image1.png" alt="">
+          </div>
+        </div>
+       
+      </section>
+      <section class="mt-10">
+        <div class="max-w-5xl mx-auto">
+          <div class="grid max-lg:grid-cols-2 lg:grid-cols-3 gap-5 px-10 max-md:place-items-center">
+            <img src="./assets/images/category-1.jpg" class="object-cover max-md:h-48 " alt="">
+            <img src="./assets/images/category-2.jpg" class="object-cover max-md:h-48" alt="" >
+            <img src="./assets/images/category-3.jpg" class="object-cover max-md:h-48" alt="" >
+          </div>
+        </div>
+      </section>
+      <section class="mt-10 max-lg:mt-5">
+        <div class="max-w-5xl mx-auto">
+         <div class="grid gap-20 max-lg:gap-5">
+          <div class="flex flex-col items-center gap-2">
+            <h2  class="text-lg text-gray font-bold">Featured Products</h2>
+            <div class="w-20 h-1 bg-red rounded-2xl"></div>
+          </div>
+          <div class="grid lg:grid-cols-4 gap-6 max-lg:gap-2">
+            <div class="text-gray hover:-translate-y-5 transition-transform duration-500 flex flex-col gap-2 p-3 bg-white rounded-lg" >
+              <img src="./assets/images/buy-1.jpg" alt="buy1" class="h-full object-cover">
+              <h3 class="text-[14px]">Red Printed T-shirt</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              
+              </div>
+              <span class="text-[12px]">$50.00</span>
+            </div>
+           
+            <div class="text-gray hover:-translate-y-5 transition-transform duration-500 flex flex-col gap-2 p-3 bg-white rounded-lg">
+              <img src="./assets/images/buy-2.jpg" alt="buy2" class="h-full object-cover">
+              <h3 class="text-[14px]">HRX Sport Shoes</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-[12px]">$75.00</span>
+            </div>
+            <div class="text-gray hover:-translate-y-5 transition-transform duration-500 flex flex-col gap-2 p-3 bg-white rounded-lg">
+              <img src="./assets/images/buy-3.jpg" alt="buy3" class="h-full object-cover">
+              <h3 class="text-[14px]">HRX Gray Trackpants</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            
+              </div>
+              <span class="text-[12px]">$45.00</span>
+            </div>
+            <div class="text-gray hover:-translate-y-5 transition-transform duration-500 flex flex-col gap-2 p-3 bg-white rounded-lg">
+              <img src="./assets/images/product-4.jpg" alt="buy4" class="h-full object-cover">
+              <h3 class="text-[14px]">Blue Printed T-shirt</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+                <i class="fa-regular fa-star"></i>
+              
+              </div>
+              <span class="text-[12px]">$55.00</span>
+            </div>
+          </div>
+         </div>
+        </div>
+      </section>
+      <section>
+        <div class="max-w-5xl mx-auto">
+         <div class="grid gap-8">
+          <div class="flex flex-col items-center gap-2">
+            <h2 class="text-lg text-gray font-bold">Latest Products</h2>
+            <div class="w-20 h-1 bg-red rounded-2xl"></div>
+          </div>
+          <div class="grid lg:grid-cols-4 gap-6">
+            <div class="text-gray flex flex-col gap-2 p-3 rounded-lg hover:-translate-y-3 transition-transform duration-300">
+              <img src="./assets/images/product-5.jpg" alt="buy1" class="h-48 w-full object-cover">
+              <h3 class="text-[14px]">Puma Gray Sport Shoes</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+               
+              </div>
+              <span class="text-[12px]">$95.00</span>
+            </div>
+           
+            <div class="text-gray flex flex-col gap-2 p-3 rounded-lg hover:-translate-y-3 transition-transform duration-300"">
+              <img src="./assets/images/product-6.jpg" alt="buy2" class="h-48 w-full object-cover">
+              <h3 class="text-[14px]">Black Printed T-shirt</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-[12px]">$55.00</span>
+            </div>
+            <div class="text-gray flex flex-col gap-2 p-3 rounded-lg hover:-translate-y-3 transition-transform duration-300">
+              <img src="./assets/images/product-7.jpg" alt="buy3" class="h-48 w-full object-cover">
+              <h3 class="text-[14px]">HRX set of 3 Socks</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            
+              </div>
+              <span class="text-[12px]">$45.00</span>
+            </div>
+            <div class="text-gray flex flex-col gap-2 p-3 rounded-lg hover:-translate-y-3 transition-transform duration-300">
+              <img src="./assets/images/product-8.jpg" alt="buy4" class="h-48 w-full object-cover">
+              <h3 class="text-[14px]">Black Fossil Watch</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+                <i class="fa-regular fa-star"></i>
+              
+              </div>
+              <span class="text-[12px]">$120.00</span>
+            </div>
+            <div class="text-gray flex flex-col gap-2 p-3 rounded-lg hover:-translate-y-3 transition-transform duration-300">
+              <img src="./assets/images/product-9.jpg" alt="buy4" class="h-48 w-full object-cover">
+              <h3 class="text-[14px]">Black SportX Watch</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+                <i class="fa-regular fa-star"></i>
+              
+              </div>
+              <span class="text-[12px]">$135.00</span>
+            </div>
+            <div class="text-gray flex flex-col gap-2 p-3 rounded-lg hover:-translate-y-3 transition-transform duration-300">
+              <img src="./assets/images/product-10.jpg" alt="buy2" class="h-48 w-full object-cover">
+              <h3 class="text-[14px]">Black HRX Shoes</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-[12px]">$50.00</span>
+            </div>
+            <div class="text-gray flex flex-col gap-2 p-3 rounded-lg hover:-translate-y-3 transition-transform duration-300">
+              <img src="./assets/images/product-10.jpg" alt="buy2" class="h-48 w-full object-cover">
+              <h3 class="text-[14px]">Gray Nike Shoes</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-[12px]">$55.00</span>
+            </div>
+            <div class="text-gray flex flex-col gap-2 p-3 rounded-lg hover:-translate-y-3 transition-transform duration-300">
+              <img src="./assets/images/product-12.jpg" alt="buy2" class="h-48 w-full object-cover">
+              <h3 class="text-[14px]">HRX Black Trackpants</h3>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-[12px]">$75.00</span>
+            </div>
+          </div>
+         </div>
+        </div>
+      </section>
+      <section class="bg-radial from-white to-pink h-screen pt-20">
+        <div class="grid lg:grid-cols-2 max-w-5xl mx-auto">
+          <div class="flex ">
+            <img src="./assets/images/exclusive.png" alt="">
+          </div>
+          <div class="flex flex-col justify-center gap-5 max-lg:items-center">
+            <h3 class="text-gray text-xl max-lg:text-lg">Exclusively available on RedStore</h3>
+            <h2 class="font-bold text-xl max-lg:text-lg">Smart Band 4</h2>
+            <p class="max-w-lg text-gray text-md max-lg:text-[12px] max-lg:px-10">The Mi Smart Band 4 features a 39.9% larger(than Mi band) AMOLED color full-touch display with adjustable brightness. So everything is clear as can be. </p>
+          <button class="btn ">
+            Buy Now <span><i class="fa-solid fa-arrow-right"></i></span>
+          </button>
+          </div>
+         
+        </div>
+       
+      </section>
+      <section class="mt-15">
+        <div class="max-w-5xl mx-auto">
+          <div class="grid lg:grid-cols-3 gap-5 max-lg:px-10 max-lg:gap-8">
+            <div class="bg-white rounded-md border-transparent border shadow-md hover:-translate-y-5 transition-transform duration-500 shadow-gray flex flex-col items-center gap-3 p-4">
+              <i class="fa-solid fa-quote-left text-red text-4xl max-lg:text-xl"></i>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui sit, hic ut unde sed aperiam. Facilis, provident hic!</p>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+               
+              </div>
+              <img src="./assets/images/user-1.png" alt="" class="rounded-full w-20">
+              <span>Sean Parker</span>
+            </div>
+            <div class="bg-white rounded-md border-transparent hover:-translate-y-5 transition-transform duration-500 border shadow-md shadow-gray flex flex-col items-center gap-3 p-4">
+              <i class="fa-solid fa-quote-left text-red text-4xl max-lg:text-xl"></i>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui sit, hic ut unde sed aperiam. Facilis, provident hic!</p>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+               
+              </div>
+              <img src="./assets/images/user-2.png" alt="" class="rounded-full w-20">
+              <span>Mike Smith</span>
+            </div>
+            <div class="bg-white rounded-md border-transparent hover:-translate-y-5 transition-transform duration-500 border shadow-md shadow-gray flex flex-col items-center gap-3 p-4">
+              <i class="fa-solid fa-quote-left text-red text-4xl max-lg:text-xl"></i>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui sit, hic ut unde sed aperiam. Facilis, provident hic!</p>
+              <div class="text-red">
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+               
+              </div>
+              <img src="./assets/images/user-3.png" alt="" class="rounded-full w-20">
+              <span>Mabel Joe</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt-10">
+     <div class="max-w-5xl mx-auto">
+      <div class="grid lg:grid-cols-5 max-lg grid-cols-3 max-lg:px-10">
+        <img src="./assets/images/logo-godrej.png" alt="" class="w-24 max-md:w-20 grayscale hover:grayscale-0">
+        <img src="./assets/images/logo-oppo.png" alt="" class="w-24 max-md:w-20 grayscale hover:grayscale-0">
+        <img src="./assets/images/logo-coca-cola.png" alt="" class="w-24 max-md:w-20 grayscale hover:grayscale-0">
+        <img src="./assets/images/logo-paypal.png" alt="" class="w-24 max-md:w-20 grayscale hover:grayscale-0">
+        <img src="./assets/images/logo-philips.png" alt="" class="w-24 max-md:w-20 grayscale hover:grayscale-0">
+      </div>
+     </div>
+      </section>
+    </main>
+    <footer class="bg-black text-white p-10 mt-10">
+      <div class="max-w-5xl mx-auto">
+        <div class="grid gap-5 place-items-center">
+          <div class="grid lg:grid-cols-4 gap-10">
+            <div class="flex flex-col gap-3">
+              <h3 class="font-bold ">Download Our App</h3>
+              <h5 class="text-nowrap text-[12px] font-light text-gray">Download app for android and ios mobile phone.</h5>
+              <div class="flex gap-3">
+                <img src="./assets/images/play-store.png" alt="" class="w-24">
+                <img src="./assets/images/app-store.png" alt="" class="w-24">
+              </div>
+            </div>
+            <div class="flex flex-col gap-4">
+              <img src="./assets/images/logo-white.png" class="w-20" alt="">
+              <p class="text-gray text-[12px]">Our Purpose Is To Sustainably Make The Pleasure And Benefits of Sports Accessible to the Many. </p>
+  
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Useful Links</h3>
+              <ul class="text-gray text-[14px]">
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Follow Us</h3>
+              <ul  class="text-gray text-[14px]">
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
+          </div>
+          <div class="h-0.5 w-full bg-gray"></div>
+          <p class="text-center text-gray">CopyRight 2026. Pola</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/icons/all.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

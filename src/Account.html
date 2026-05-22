@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>RedStore | Account</title>
+    
+        <link rel="shortcut icon" href="./assets/images/logo-white.png" type="image/png">
+        <link rel="stylesheet" href="./assets/icons/all.min.css" />
+        <link rel="stylesheet" href="./assets/css/output.css">
+      </head>
+<body>
+  <header class="fixed top-0 w-full  z-20">
+    <section class="bg-pink header">
+     <div class="max-w-5xl mx-auto">
+       <div class="flex justify-between items-center p-5">
+         <img src="./assets/images/logo.png" alt="logo" class="w-20">
+         <nav class="text-md lg:flex hidden space-x-5 items-center">
+           <ul class="flex justify-between space-x-5">
+             <li><a href="./index.html" class="hover:text-red transition duration-300 ease-in">Home</a></li>
+             <li><a href="./Products.html" class="hover:text-red transition duration-300 ease-in">Products</a></li>
+          
+             <li><a href="./Account.html" class="hover:text-red transition duration-300 ease-in">Account</a></li>
+           </ul>
+           <a href="./Cart.html"><img src="./assets/images/cart.png" alt="" class="w-4 lg:block hidden"></a>
+         </nav>
+        <a href="./Cart.html"> <img src="./assets/images/cart.png" alt="" class="w-4 block lg:hidden"></a>
+         <nav class="text-md fixed z-20  navbar lg:hidden top-14 p-5 left-0  transform origin-center w-full bg-gray transition-transform scale-y-0">
+           
+           <ul class="flex flex-col items-end justify-center space-y-5  ">
+             <li><a href="./index.html" class="hover:text-white text-pink transition duration-300 ease-in">Home</a></li>
+             <li><a href="./Products.html" class="hover:text-white text-pink transition duration-300 ease-in">Products</a></li>
+           
+             <li><a href="./Account.html" class="hover:text-white text-pink transition duration-300 ease-in">Account</a></li>
+           </ul>
+          
+          
+         </nav>
+         <div class="menu z-50 lg:hidden block">
+           <i class="fa fa-solid fa-bars menu-open "></i>
+           <i class="fa fa-solid fa-xmark menu-close text-red"></i>
+         </div>
+       </div>
+
+     </div>
+    </section>
+   </header>
+       <main>
+        <section class="bg-radial from-white to-pink mt-10">
+            <div class="mx-auto max-w-5xl ">
+                <div class="grid grid-cols-2 place-items-center">
+                    <div>
+                        <img src="./assets/images/image1.png" alt="">
+                    </div>
+                    <form action="" class="w-80 bg-white  px-10 py-5 rounded-lg flex flex-col gap-10">
+                        <div class="flex justify-center gap-6 ">
+                            <h2 id="loginTab" class="cursor-pointer border-b-2 p-1 border-red">Login</h2>
+                            <h2 id="registerTab" class="cursor-pointer p-1">Register</h2>
+                          </div>
+                          <div class="relative w-full overflow-hidden">
+                            <div id="slider" class="flex w-[200%] transition-transform duration-500">
+                                <div class=" flex flex-col items-center gap-4">
+                                    <input type="text" placeholder="Username" class="input">
+                                    <input type="password" placeholder="Password" class="input">
+                                    <input type="submit" value="Login" class="btn">
+                                    <p>Forgot Password</p>
+                                  </div>
+                                  <div class=" flex flex-col items-center gap-4">
+                                    <input type="text" placeholder="Username" class="input">
+                                    <input type="email" placeholder="Email" class="input">
+                                    <input type="password" placeholder="Password" class="input">
+                                    <input type="submit" value="Sign Up" class="btn">
+                                  </div>   
+                            </div>
+                          </div>
+                    
+                    </form>
+                </div>
+            </div>
+        </section>
+       </main>
+       <footer class="bg-black text-white p-10 ">
+        <div class="max-w-5xl mx-auto">
+          <div class="grid gap-5 place-items-center">
+            <div class="grid lg:grid-cols-4 gap-10">
+              <div class="flex flex-col gap-3">
+                <h3 class="font-bold ">Download Our App</h3>
+                <h5 class="text-nowrap text-[12px] font-light text-gray">Download app for android and ios mobile phone.</h5>
+                <div class="flex gap-3">
+                  <img src="./assets/images/play-store.png" alt="" class="w-24">
+                  <img src="./assets/images/app-store.png" alt="" class="w-24">
+                </div>
+              </div>
+              <div class="flex flex-col gap-4">
+                <img src="./assets/images/logo-white.png" class="w-20" alt="">
+                <p class="text-gray text-[12px]">Our Purpose Is To Sustainably Make The Pleasure And Benefits of Sports Accessible to the Many. </p>
+    
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Useful Links</h3>
+                <ul class="text-gray text-[14px]">
+                  <li>Coupons</li>
+                  <li>Blog Post</li>
+                  <li>Return Policy</li>
+                  <li>Join Affiliate</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Follow Us</h3>
+                <ul  class="text-gray text-[14px]">
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>
+                </ul>
+              </div>
+            </div>
+            <div class="h-0.5 w-full bg-gray"></div>
+            <p class="text-center text-gray">CopyRight 2026. Pola</p>
+          </div>
+        </div>
+      </footer>
+      <script src="./assets/icons/all.min.js"></script>
+      <script src="./assets/js/index.js"></script>
+</body>
+</html>
