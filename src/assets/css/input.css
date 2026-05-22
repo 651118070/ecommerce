@@ -31,5 +31,5 @@ body::-webkit-scrollbar{
     @apply flex gap-2 items-center w-40 text-center justify-center text-nowrap rounded-2xl hover:bg-gray transition duration-500 p-1 bg-red text-white
 }
 .input{
-    @apply w-full p-2  border border-gray rounded-xl
+    @apply w-full p-2  border border-gray rounded-xl outline-none
 }
